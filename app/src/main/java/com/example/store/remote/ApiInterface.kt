@@ -6,6 +6,6 @@ import retrofit2.http.GET
 
 interface ApiInterface {
 
-    @GET("product")
+    @GET("products")
     suspend fun storeApi(): Response<List<StoreModel>>
 }
